@@ -1,2 +1,7 @@
 streamlit
 streamlit-keplergl
+pandas
+h3
+geopandas
+numpy
+Shapely
