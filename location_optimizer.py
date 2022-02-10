@@ -292,10 +292,15 @@ def generate_point_df(h3_df, empty_hex_rate=0.5):
 # In[29]:
 sidebar = st.sidebar
 
+"""
+   A GUI implementation for toy example of EV Charge Station (EVCS).\n
+   It works with mock data.
+"""
+
 sidebar.write(
     """
-    A GUI implementation for toy example of EV Charge Station (EVCS).\n
-    It works with mock data.
+       A GUI implementation for solving Location Selection Problem (EVCS).\n
+       It works with mock data.
     """
 )
 
