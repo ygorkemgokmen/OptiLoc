@@ -299,7 +299,7 @@ sidebar = st.sidebar
 
 sidebar.write(
     """
-       A GUI implementation for solving Location Selection Problem (EVCS).\n
+       A GUI implementation for solving Location Selection Problem.\n
        It works with mock data.
     """
 )
