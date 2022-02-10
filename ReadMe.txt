@@ -1,0 +1,1 @@
+To run on your local host run the command "streamlit run toy_example.py".
