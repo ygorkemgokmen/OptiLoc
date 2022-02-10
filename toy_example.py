@@ -322,7 +322,7 @@ elif country == "Turkey":
 
 
 sensitivty = sidebar.slider("Select a Resolution Level for Hexagons", min_value=7, max_value=10)
-pick_top_n_score = sidebar.slider("Select Number of Locations for EVCS Installation", min_value=1, max_value=20)
+pick_top_n_score = sidebar.slider("Select Number of Locations", min_value=1, max_value=20) #for EVCS Installation
 # Set parameters
 np.random.seed(seed=0)
 #country = 'UK'  # UAE, UK, AUS, TUR
