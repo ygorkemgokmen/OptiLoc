@@ -1,8 +1,7 @@
 streamlit
-streamlit-keplergl
+streamlit-keplergl==0.1.0
 pandas
 h3
 geopandas
 numpy
 Shapely
-fiona==1.8.19
