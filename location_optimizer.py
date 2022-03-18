@@ -353,7 +353,8 @@ w1.add_data(data=point_df[['point_id', 'point_score', 'lat', 'lon']], name='poin
 h3_pick_n_df = h3_df.sort_values(by='h3_score', ascending=False).iloc[:pick_top_n_score, :]
 w1 = KeplerGl(height=400, data={'hex_data': h3_pick_n_df[['h3_id', 'h3_centroid', 'h3_score']]}, config=config)
 w1.add_data(data=point_df[['point_id', 'point_score', 'lat', 'lon']], name='point_data')
+keplergl_static(w1)
 # w1
 st.title("Facility Location Optimizer")
 st.write("Helps you make your decisions optimally")
-keplergl_static(w1)
+
