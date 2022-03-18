@@ -5,3 +5,5 @@ h3
 geopandas
 numpy
 Shapely
+fiona==1.8.19
+gdal==3.2.3
